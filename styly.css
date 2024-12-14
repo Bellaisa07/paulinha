@@ -1,0 +1,61 @@
+/* Resetando margens e paddings padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo geral para a página */
+body {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* 100% da altura da tela */
+  background-image: url(millenium-festas-eventos-bodas-turquesa-1024x684.jpg);
+  font-family: Arial, sans-serif; /* Fonte */
+}
+
+/* Container principal */
+.container {
+  text-align: center; /* Centraliza o texto dentro do container */
+  background-color: #ffffff; /* Cor de fundo do container */
+  padding: 20px;
+  border-radius: 10px; /* Borda arredondada */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 90%;
+  max-width: 600px; /* Largura máxima do container */
+}
+
+/* Estilo para a imagem */
+.image {
+  width: 100%;
+  max-width: 500px; /* Limita a largura da imagem */
+  border-radius: 10px; /* Borda arredondada na imagem */
+  margin: 20px 0; /* Margem para separar da imagem do conteúdo */
+}
+
+/* Estilo para o áudio */
+audio {
+  width: 100%;
+  max-width: 500px; /* Limita a largura do player de áudio */
+  margin: 20px 0; /* Margem entre o áudio e o conteúdo */
+}
+
+/* Estilo para o texto dentro do card */
+.texto {
+  background-color: #f9f9f9; /* Cor de fundo do card */
+  padding: 20px;
+  border-radius: 10px; /* Borda arredondada */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  margin-top: 20px; /* Espaçamento acima do card */
+}
+
+h2 {
+  font-size: 1.2em; /* Tamanho da fonte do texto */
+  color: #333; /* Cor do texto */
+}
+
+mark {
+  background-color: #00bcd4; /* Cor de fundo para destacar o texto */
+  color: white; /* Cor do texto destacado */
+}
